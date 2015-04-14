@@ -7,68 +7,52 @@
 
 header ul {
   list-style-type: none; }
-
 header .first__header {
   padding: 10px 0;
   background: #f5f5f5; }
-
 header .second__header {
   background: #292029;
   padding: 20px 0;
   color: #f5f5f5; }
-
 header .first__header__wrap,
 header .second__header__wrap {
   margin: 0 auto;
   width: 80%; }
-
 header .first__header ul.first__header__list li {
   display: inline-block;
   padding: 0 5px; }
+  header .first__header ul.first__header__list li a {
+    text-decoration: none;
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: bold; }
+  header .first__header ul.first__header__list li a:hover {
+    color: #292029; }
 
-header .first__header ul.first__header__list li {
-  padding-left: 0; }
-
-header .first__header ul.first__header__list li a {
-  text-decoration: none;
-  color: #999999;
-  text-transform: uppercase;
-  font-weight: bold; }
-
-header .first__header ul.first__header__list li a:hover {
-  color: #292029; }
-
-header .second__header ul.c2f__nav li {
-  display: inline-block; }
-
-header .second__header .js__logo__wrap {
+.second__header .js__logo__wrap {
   float: left; }
-
-header .second__header .c2f__nav__wrap {
+  .second__header .js__logo__wrap .js__logo {
+    font-size: 24px; }
+  .second__header .js__logo__wrap .js__logo__subtitle {
+    font-size: 12px;
+    text-align: right;
+    margin: 5px 0; }
+.second__header .c2f__nav__wrap {
   float: right; }
-
-header .second__header .js__logo__wrap .js__logo {
-  font-size: 24px; }
-
-header .second__header .js__logo__wrap .js__logo__subtitle {
-  font-size: 12px;
-  text-align: right;
-  margin: 5px 0; }
-
-header .second__header ul.c2f__nav {
-  margin: 14px 0; }
-
-header .second__header ul.c2f__nav li a {
-  text-decoration: none;
-  color: #999999;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 10px;
-  background: #f5f5f5;
-  margin: 0 3px; }
-
-header .second__header ul.c2f__nav li a:hover {
-  color: #292029; }
+  .second__header .c2f__nav__wrap ul.c2f__nav {
+    margin: 14px 0; }
+    .second__header .c2f__nav__wrap ul.c2f__nav li {
+      display: inline-block; }
+    .second__header .c2f__nav__wrap ul.c2f__nav a {
+      text-decoration: none;
+      color: #999999;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 10px;
+      background: #f5f5f5;
+      margin: 0 3px; }
+    .second__header .c2f__nav__wrap ul.c2f__nav a:hover {
+      color: #292029; }
 
 .c2f__content {
   width: 80%;
