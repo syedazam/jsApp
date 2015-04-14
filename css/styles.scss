@@ -1,0 +1,125 @@
+@import "html5reset.css";
+
+$f__tahoma: tahoma;
+$ash__grey:#f5f5f5;
+$medium__grey:#999999;
+$dark__grey:#292029;
+$m__auto : 0 auto;
+$w__80pr : 80%;
+$w__48pr : 48%;
+$f__left : left;
+$f__right : right;
+
+
+#c2f__wrapper {
+	width : 100%;
+	margin : $m__auto;
+	font-family: $f__tahoma;
+	font-size: 12px;
+}
+header ul {
+	list-style-type:none
+}
+header .first__header {
+	padding : 10px 0;
+	background :$ash__grey;
+}
+header .second__header {
+	background :$dark__grey;
+	padding : 20px 0;
+	color :$ash__grey ;
+}
+header .first__header__wrap,
+header .second__header__wrap {
+	margin : 0 auto;
+	width : 80%;
+}
+header .first__header ul.first__header__list li{
+	display : inline-block;
+	padding : 0 5px;
+}
+header .first__header ul.first__header__list li {
+	padding-left:0;
+}
+header .first__header ul.first__header__list li a {
+	text-decoration :none;
+	color:$medium__grey;
+	text-transform : uppercase;
+	font-weight :bold;
+}
+header .first__header ul.first__header__list li a:hover {
+	color:$dark__grey;
+}
+header .second__header__wrap {
+}
+header .second__header ul.c2f__nav li{
+	display : inline-block;
+}
+header .second__header .js__logo__wrap {
+	float:$f__left;
+}
+header .second__header .c2f__nav__wrap {
+	float:$f__right;
+}
+header .second__header .js__logo__wrap .js__logo {
+	font-size : 24px;
+}
+header .second__header .js__logo__wrap .js__logo__subtitle {
+  font-size: 12px;
+  text-align: right;
+  margin: 5px 0;
+}
+header .second__header ul.c2f__nav {
+	margin: 14px 0;
+}
+header .second__header ul.c2f__nav li a{
+	text-decoration :none;
+	color:$medium__grey;
+	text-transform : uppercase;
+	font-weight :bold;
+	padding : 10px;
+	background :$ash__grey;
+	margin : 0 3px;
+}
+header .second__header ul.c2f__nav li a:hover{
+	color:$dark__grey;
+}
+
+.c2f__content {
+	width : $w__80pr;
+	margin : 10px auto 0 auto;
+	
+	.c2f__cont_left {
+		float : $f__left;
+		width : 70%;
+	
+		.content__wrap {
+			
+			border-bottom : 2px solid $dark__grey;
+			padding-bottom : 20px;
+			margin :20px 0 50px 0 ;
+
+			.title__head { font-size : 25px; color:$dark__grey ; font-weight : normal; margin-bottom: 10px; border-bottom: 1px dotted $medium__grey; padding-bottom: 10px;}
+			.content__para { color : $medium__grey; line-height : 18px;	margin:0 0 10px 0;}
+			.content__img {}
+			.content__added__date {}
+			
+			.content__cat {
+				.cat__links__title {}
+				.cat__links__desc {}
+			}
+			
+			.content__tags{
+				.tags__links__title {}
+				.tags__links__desc {}
+			}
+		}
+	}
+	
+	.c2f__cont_right {
+		border : 1px solid #f00;
+		float : $f__right;
+		width : 25%;
+	}
+	
+}
