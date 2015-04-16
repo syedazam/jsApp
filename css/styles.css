@@ -76,8 +76,12 @@ header .first__header ul.first__header__list li {
         line-height: 18px;
         margin: 0 0 10px 0; }
   .c2f__content .c2f__cont_right {
-    border: 1px solid #f00;
     float: right;
     width: 25%; }
+    .c2f__content .c2f__cont_right .content__aside .aside__intro {
+      padding: 20px 0;
+      border-bottom: 1px solid #E3E3D9;
+      color: #999999;
+      line-height: 18px; }
 
 /*# sourceMappingURL=styles.css.map */

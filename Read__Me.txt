@@ -3,6 +3,7 @@ This Application uses
 *HTML5
 *SASS / CSS
 *ANGULARJS
+*REQUIRE JS
 *JQUERY (IF REQUIRED)
 
 
