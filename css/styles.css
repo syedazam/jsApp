@@ -1,4 +1,7 @@
 @import url(html5reset.css);
+@import url(codemirror.css);
+@import url(fullscreen.css);
+@import url(night.css);
 #c2f__wrapper {
   width: 100%;
   margin: 0 auto;
@@ -71,10 +74,25 @@ header .first__header ul.first__header__list li {
         margin-bottom: 10px;
         border-bottom: 1px dotted #999999;
         padding-bottom: 10px; }
-      .c2f__content .c2f__cont_left .content__wrap .content__para {
+      .c2f__content .c2f__cont_left .content__wrap .content__para, .c2f__content .c2f__cont_left .content__wrap p {
         color: #999999;
-        line-height: 18px;
-        margin: 0 0 10px 0; }
+        line-height: 20px;
+        margin: 0 0 10px 0;
+        font-size: 14px; }
+      .c2f__content .c2f__cont_left .content__wrap .content__added__date {
+        color: #cccccc; }
+      .c2f__content .c2f__cont_left .content__wrap .content__cat {
+        float: right; }
+        .c2f__content .c2f__cont_left .content__wrap .content__cat .cat__links__title {
+          color: #cccccc; }
+        .c2f__content .c2f__cont_left .content__wrap .content__cat .cat__links__desc {
+          color: #cccccc; }
+      .c2f__content .c2f__cont_left .content__wrap .content__tags {
+        float: right; }
+        .c2f__content .c2f__cont_left .content__wrap .content__tags .tags__links__title {
+          color: #cccccc; }
+        .c2f__content .c2f__cont_left .content__wrap .content__tags .tags__links__desc {
+          color: #cccccc; }
   .c2f__content .c2f__cont_right {
     float: right;
     width: 25%; }
@@ -83,5 +101,8 @@ header .first__header ul.first__header__list li {
       border-bottom: 1px solid #E3E3D9;
       color: #999999;
       line-height: 18px; }
+
+.CodeMirror {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

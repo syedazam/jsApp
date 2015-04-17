@@ -1,7 +1,11 @@
 @import "html5reset.css";
+@import "codemirror.css";
+@import "fullscreen.css";
+@import "night.css";
 
 $f__tahoma: tahoma;
 $ash__grey:#f5f5f5;
+$light__grey : #cccccc;
 $medium__grey:#999999;
 $dark__grey:#292029;
 $m__auto : 0 auto;
@@ -64,18 +68,20 @@ header {
 			margin :20px 0 50px 0 ;
 
 			.title__head { font-size : 25px; color:$dark__grey ; font-weight : normal; margin-bottom: 10px; border-bottom: 1px dotted $medium__grey; padding-bottom: 10px;}
-			.content__para { color : $medium__grey; line-height : 18px;	margin:0 0 10px 0;}
+			.content__para, p { color : $medium__grey; line-height : 20px;	margin:0 0 10px 0; font-size: 14px;}
 			.content__img {}
-			.content__added__date {}
+			.content__added__date {color : $light__grey;}
 			
 			.content__cat {
-				.cat__links__title {}
-				.cat__links__desc {}
+				float : right;
+				.cat__links__title {color : $light__grey;}
+				.cat__links__desc {color : $light__grey;}
 			}
 			
 			.content__tags{
-				.tags__links__title {}
-				.tags__links__desc {}
+				float : right;
+				.tags__links__title {color : $light__grey;}
+				.tags__links__desc {color : $light__grey;}
 			}
 		}
 	}
@@ -91,3 +97,5 @@ header {
 		}
 	}	
 }
+
+.CodeMirror {margin-bottom:20px;}
